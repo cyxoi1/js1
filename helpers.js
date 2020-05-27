@@ -153,4 +153,4 @@ module.exports = {add, mult, season, countOfDivisors,
     isPrime, primeNumbers,
     countOfPrimeNumbers, removeSpaces, removeSpacesR,
     isPalindrome, countPalindromes, isVowel, avg};
-//and wha s next?
+
