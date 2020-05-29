@@ -6,7 +6,7 @@ function mult(a, b){
     return a * b;
 }
 
-const arr[];
+//const arr[];
 
 
 //1
@@ -134,11 +134,11 @@ function avg(arr = []) {
     if (arr.length === 0) return 0;
     // avg calculation
     //
-    let sum = 0, el = 0; //
-    for (let i = 0; i < arr.length; i++) {
+    let sum = 0, el = 0; //3
+    for (let i = 0; i < arr.length; i++) {//1, 2,3
         if (typeof arr[i] !== 'number') continue;
-        el++; //
-        sum += arr[i];
+        el++; //1+1+1=3
+        sum += arr[i];//1+2+3=6
     }
     // should return 0 for all non numbers
     if (el === 0) return 0;
