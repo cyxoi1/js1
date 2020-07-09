@@ -145,7 +145,7 @@ function avg(arr = []) {
     return sum / el;
     // return arr.reduce((acc, cur) => acc + cur, 0) / arr.length;
 }
-//module.exports = { avg };
+//module.exports = { avg };ревью
 
 
 
